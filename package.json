@@ -1,0 +1,21 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.3",
+    "parcel": "^2.10.3"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Adnan",
+  "dependencies": {
+    "core-js": "^3.33.3",
+    "fracty": "^1.0.11",
+    "regenerator-runtime": "^0.14.0",
+    "sass": "^1.69.5"
+  }
+}
